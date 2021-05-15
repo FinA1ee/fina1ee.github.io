@@ -1,0 +1,19 @@
+.component-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #ec3454;
+  height: 25%;
+}
+
+.component-footer-item {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.component-footer-item > img {
+  width: 45px;
+  height: 45px;
+}

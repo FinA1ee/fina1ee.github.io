@@ -1,0 +1,7 @@
+.component-mainbody {
+  display: flex;
+  height: 65%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

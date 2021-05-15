@@ -2,13 +2,14 @@ import "./App.css";
 // import ContactInfoBar from "./components/ContactInfoBar";
 import MainBody from "./components/mainbody/MainBody";
 import NavBar from "./components/navbar/NavBar";
+import FooterBar from "./components/footerbar/FooterBar";
+
 import {
   HashRouter as Router,
   Route,
   Switch,
   Redirect,
 } from "react-router-dom";
-import FootBar from "./components/footbar/FootBar";
 
 function App() {
   const subPages = [
@@ -46,7 +47,7 @@ function App() {
 
           <Route render={() => <MainBody displayContent="homepage" />}></Route>
         </Switch>
-        <FootBar />
+        <FooterBar />
       </Router>
     </div>
   );
