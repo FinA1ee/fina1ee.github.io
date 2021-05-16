@@ -47,7 +47,7 @@ function App() {
 
           <Route render={() => <MainBody displayContent="homepage" />}></Route>
         </Switch>
-        <FooterBar />
+        <Route render={() => <FooterBar />}></Route>
       </Router>
     </div>
   );

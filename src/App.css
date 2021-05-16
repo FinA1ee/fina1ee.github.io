@@ -3,9 +3,13 @@
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   text-align: center;
   background-color: #eae5e5;
   height: 100%;
+  overflow: scroll;
 }
 
 @media (prefers-reduced-motion: no-preference) {

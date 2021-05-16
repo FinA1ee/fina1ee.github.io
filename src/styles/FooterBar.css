@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   background-color: #ec3454;
-  height: 25%;
+  min-height: 100px;
 }
 
 .component-footer-item {

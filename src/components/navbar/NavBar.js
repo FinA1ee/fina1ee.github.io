@@ -1,14 +1,19 @@
 import React from "react";
 import NameTag from "./NameTag";
-import Avatar from "./Avatar";
 import Navigates from "./Navigates";
-import AvatarImg from "../../resources/imgs/avatar.png";
 import "../../styles/NavBar.css";
 
 function NavBar(props) {
+  const avatarStyle = {
+    margin: "10px",
+  };
+  const imgStyle = {
+    borderRadius: "50%",
+    height: "70px",
+    marginTop: "16px",
+  };
   return (
     <div className="component-navbar">
-      <Avatar avatarSrc={AvatarImg} />
       <NameTag
         familyName="Zhu"
         givenName="Jack"
