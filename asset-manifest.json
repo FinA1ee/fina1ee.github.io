@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/personal-page/static/css/main.c8766e2a.chunk.css",
-    "main.js": "/personal-page/static/js/main.64405758.chunk.js",
-    "main.js.map": "/personal-page/static/js/main.64405758.chunk.js.map",
+    "main.css": "/personal-page/static/css/main.4401a0c4.chunk.css",
+    "main.js": "/personal-page/static/js/main.b59f1369.chunk.js",
+    "main.js.map": "/personal-page/static/js/main.b59f1369.chunk.js.map",
     "runtime-main.js": "/personal-page/static/js/runtime-main.fd1a1a27.js",
     "runtime-main.js.map": "/personal-page/static/js/runtime-main.fd1a1a27.js.map",
-    "static/js/2.3ccfc249.chunk.js": "/personal-page/static/js/2.3ccfc249.chunk.js",
-    "static/js/2.3ccfc249.chunk.js.map": "/personal-page/static/js/2.3ccfc249.chunk.js.map",
+    "static/js/2.762ed990.chunk.js": "/personal-page/static/js/2.762ed990.chunk.js",
+    "static/js/2.762ed990.chunk.js.map": "/personal-page/static/js/2.762ed990.chunk.js.map",
     "static/js/3.eea73a34.chunk.js": "/personal-page/static/js/3.eea73a34.chunk.js",
     "static/js/3.eea73a34.chunk.js.map": "/personal-page/static/js/3.eea73a34.chunk.js.map",
     "index.html": "/personal-page/index.html",
-    "static/css/main.c8766e2a.chunk.css.map": "/personal-page/static/css/main.c8766e2a.chunk.css.map",
-    "static/js/2.3ccfc249.chunk.js.LICENSE.txt": "/personal-page/static/js/2.3ccfc249.chunk.js.LICENSE.txt",
-    "static/media/avatar.f17226ef.png": "/personal-page/static/media/avatar.f17226ef.png",
+    "static/css/main.4401a0c4.chunk.css.map": "/personal-page/static/css/main.4401a0c4.chunk.css.map",
+    "static/js/2.762ed990.chunk.js.LICENSE.txt": "/personal-page/static/js/2.762ed990.chunk.js.LICENSE.txt",
     "static/media/email.10694bce.svg": "/personal-page/static/media/email.10694bce.svg",
     "static/media/github.04be58c1.svg": "/personal-page/static/media/github.04be58c1.svg",
+    "static/media/harry-avatar.b1ddbe4d.jpeg": "/personal-page/static/media/harry-avatar.b1ddbe4d.jpeg",
     "static/media/phone.322d975c.svg": "/personal-page/static/media/phone.322d975c.svg",
     "static/media/social.82bf8db4.svg": "/personal-page/static/media/social.82bf8db4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fd1a1a27.js",
-    "static/js/2.3ccfc249.chunk.js",
-    "static/css/main.c8766e2a.chunk.css",
-    "static/js/main.64405758.chunk.js"
+    "static/js/2.762ed990.chunk.js",
+    "static/css/main.4401a0c4.chunk.css",
+    "static/js/main.b59f1369.chunk.js"
   ]
 }
