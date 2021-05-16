@@ -4,14 +4,14 @@ import Navigates from "./Navigates";
 import "../../styles/NavBar.css";
 
 function NavBar(props) {
-  const avatarStyle = {
-    margin: "10px",
-  };
-  const imgStyle = {
-    borderRadius: "50%",
-    height: "70px",
-    marginTop: "16px",
-  };
+  // const avatarStyle = {
+  //   margin: "10px",
+  // };
+  // const imgStyle = {
+  //   borderRadius: "50%",
+  //   height: "70px",
+  //   marginTop: "16px",
+  // };
   return (
     <div className="component-navbar">
       <NameTag

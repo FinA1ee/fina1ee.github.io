@@ -2,7 +2,7 @@ import "./App.css";
 // import ContactInfoBar from "./components/ContactInfoBar";
 import MainBody from "./components/mainbody/MainBody";
 import NavBar from "./components/navbar/NavBar";
-import FooterBar from "./components/footerbar/FooterBar";
+// import FooterBar from "./components/footerbar/FooterBar";
 
 import {
   HashRouter as Router,

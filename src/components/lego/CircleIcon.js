@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/MainBody.css";
 function CircleIcon(props) {
-  const { title, iconStyle, iconSrc, redirect, bgColor } = props;
-  console.log(bgColor);
+  const { title, iconStyle, redirect, bgColor } = props;
+
   const colorStyle = {
     backgroundColor: bgColor,
   };
