@@ -8,7 +8,7 @@ function ButtonPanel(props) {
     { key: 2, title: "MY SKILLS", redirect: "/projects", bgColor: "#d2c925" },
   ];
 
-  const iconStyle = {
+  const buttonStyle = {
     height: "130px",
     width: "130px",
     borderRadius: "50%",
@@ -28,10 +28,12 @@ function ButtonPanel(props) {
   const buttonsComp = buttonList.map((item) => (
     <CircleIcon
       key={item.key}
+      type={"button"}
       title={item.title}
       redirect={item.redirect}
-      bgColor={item.bgColor}
-      iconStyle={iconStyle}
+      buttonStyle={Object.assign({}, buttonStyle, {
+        backgroundColor: item.bgColor,
+      })}
     />
   ));
 

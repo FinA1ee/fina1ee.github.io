@@ -1,6 +1,6 @@
 import Avatar from "../lego/Avatar";
 import BigAvatarImg from "../../resources/imgs/harry-avatar.jpeg";
-import ButtonPanel from "../homepage/ButtonPanel";
+import ButtonPanel from "./ButtonPanel";
 
 function HomePageBody(props) {
   const description =

@@ -4,16 +4,5 @@
   align-items: center;
   justify-content: center;
   background-color: #ec3454;
-  min-height: 100px;
-}
-
-.component-footer-item {
-  display: flex;
-  flex-direction: row;
-  margin: 10px;
-}
-
-.component-footer-item > img {
-  width: 45px;
-  height: 45px;
+  min-height: 120px;
 }

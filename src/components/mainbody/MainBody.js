@@ -1,6 +1,6 @@
 import ContactBody from "./ContactBody";
-import HomePageBody from "./HomePageBody";
-import ProjectBody from "./ProjectBody";
+import HomePageBody from "../homepage/HomePageBody";
+import ProjectBody from "../projectpage/ProjectBody";
 import ResumeBody from "./ResumeBody";
 import "../../styles/MainBody.css";
 

@@ -4,7 +4,6 @@ import "../../styles/NavBar.css";
 
 function Navigates(props) {
   const pages = props.pages;
-  console.log(props);
   const items = pages.map((page) => (
     <Link
       className="link"

@@ -2,7 +2,7 @@ import "./App.css";
 // import ContactInfoBar from "./components/ContactInfoBar";
 import MainBody from "./components/mainbody/MainBody";
 import NavBar from "./components/navbar/NavBar";
-// import FooterBar from "./components/footerbar/FooterBar";
+import FooterBar from "./components/footerbar/FooterBar";
 
 import {
   HashRouter as Router,
@@ -13,7 +13,7 @@ import {
 
 function App() {
   const subPages = [
-    { key: 0, name: "HOME", link: "/homepage" },
+    { key: 0, name: "HOMES", link: "/homepage" },
     { key: 1, name: "RESUME", link: "/resume" },
     { key: 2, name: "PROJECTS", link: "/projects" },
     { key: 3, name: "CONTACT", link: "/contact" },
@@ -47,7 +47,7 @@ function App() {
 
           <Route render={() => <MainBody displayContent="homepage" />}></Route>
         </Switch>
-        {/* <Route render={() => <FooterBar />}></Route> */}
+        <Route render={() => <FooterBar />}></Route>
       </Router>
     </div>
   );

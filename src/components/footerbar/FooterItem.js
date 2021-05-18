@@ -1,11 +1,11 @@
 import "../../styles/FooterBar.css";
 
 function FooterItem(props) {
-  const { title, iconSrc } = props;
+  const { title, content, titleStyle, contentStyle } = props;
   return (
-    <div className="component-footer-item">
-      <img alt="footer-icon" src={iconSrc}></img>
-      <p>{title}</p>
+    <div>
+      <p style={titleStyle}>{title}</p>
+      <p style={contentStyle}>{content}</p>
     </div>
   );
 }

@@ -2,23 +2,37 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/MainBody.css";
 function CircleIcon(props) {
-  const { title, iconStyle, redirect, bgColor } = props;
+  const { type } = props;
 
-  const colorStyle = {
-    backgroundColor: bgColor,
-  };
-  return (
-    <div className="">
-      <Link to={redirect}>
-        <button
-          className="button"
-          style={Object.assign({}, iconStyle, colorStyle)}
-        >
+  if (type === "image") {
+    const { iconSrc, iconStyle, imgStyle, children } = props;
+    return (
+      <div style={iconStyle}>
+        <img style={imgStyle} src={iconSrc} alt="footer-img"></img>
+        {children}
+      </div>
+    );
+  } else if (type === "button") {
+    const { buttonStyle, title, redirect } = props;
+    return (
+      <div>
+        <Link to={redirect}>
+          <button style={buttonStyle}>{title}</button>
+        </Link>
+      </div>
+    );
+  } else if (type === "text") {
+    const { textStyle, title } = props;
+    return (
+      <div>
+        <button style={textStyle} disabled>
           {title}
         </button>
-      </Link>
-    </div>
-  );
+      </div>
+    );
+  }
+
+  return <div>Error</div>;
 }
 
 export default CircleIcon;
