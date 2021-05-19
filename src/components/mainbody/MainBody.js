@@ -1,7 +1,7 @@
 import ContactBody from "./ContactBody";
 import HomePageBody from "../homepage/HomePageBody";
 import ProjectBody from "../projectpage/ProjectBody";
-import ResumeBody from "./ResumeBody";
+import ResumeBody from "../resumepage/ResumeBody";
 import "../../styles/MainBody.css";
 
 const MainBody = (props) => {

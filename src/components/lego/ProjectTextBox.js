@@ -1,5 +1,5 @@
 function ProjectTextBox(props) {
-  const { id, title, content } = props;
+  const { title, content } = props;
   const boxStyle = {
     width: "325px",
   };
@@ -19,13 +19,6 @@ function ProjectTextBox(props) {
         <p style={contentStyle}> {content} </p>
       </section>
     </div>
-    // <div>
-    //   <p>
-    //     {" "}
-    //     Project | 0{id} {title}{" "}
-    //   </p>
-    //   <p> {content}</p>
-    // </div>
   );
 }
 

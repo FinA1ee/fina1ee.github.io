@@ -14,7 +14,8 @@ const data = [
     id: 2,
     title: "MineSweeper 1.0",
     imgsrc: mineImg1,
-    content: "This is a simple mine sweeper in Swift.",
+    content:
+      "This is a simple mine sweeper written in Swift. Various design patterns were applied.",
   },
   {
     id: 3,
