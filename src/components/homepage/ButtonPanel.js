@@ -31,6 +31,7 @@ function ButtonPanel(props) {
       type={"button"}
       title={item.title}
       redirect={item.redirect}
+      iconStyle={null}
       buttonStyle={Object.assign({}, buttonStyle, {
         backgroundColor: item.bgColor,
       })}

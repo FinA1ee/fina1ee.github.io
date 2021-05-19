@@ -13,18 +13,20 @@ function CircleIcon(props) {
       </div>
     );
   } else if (type === "button") {
-    const { buttonStyle, title, redirect } = props;
+    const { buttonStyle, iconStyle, title, redirect } = props;
     return (
-      <div>
+      <div style={iconStyle}>
         <Link to={redirect}>
-          <button style={buttonStyle}>{title}</button>
+          <button className="button" style={buttonStyle}>
+            {title}
+          </button>
         </Link>
       </div>
     );
   } else if (type === "text") {
-    const { textStyle, title } = props;
+    const { textStyle, iconStyle, title } = props;
     return (
-      <div>
+      <div style={iconStyle}>
         <button style={textStyle} disabled>
           {title}
         </button>

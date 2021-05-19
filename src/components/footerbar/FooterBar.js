@@ -1,7 +1,7 @@
-import TeleIcon from "../../resources/imgs/phone.svg";
-import EmailIcon from "../../resources/imgs/email.svg";
-import GithubIcon from "../../resources/imgs/github.svg";
-import SocialIcon from "../../resources/imgs/social.svg";
+import TeleIcon from "../../resources/imgs/svg/phone.svg";
+import EmailIcon from "../../resources/imgs/svg/email.svg";
+import GithubIcon from "../../resources/imgs/svg/github.svg";
+import SocialIcon from "../../resources/imgs/svg/social.svg";
 import CircleIcon from "../lego/CircleIcon";
 import "../../styles/FooterBar.css";
 import FooterItem from "./FooterItem";
