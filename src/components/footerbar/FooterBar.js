@@ -77,7 +77,6 @@ function FooterBar() {
     display: "flex",
     flexDirection: "row",
     margin: "10px",
-    fill: "#66ccff",
   };
 
   const imgStyle = {

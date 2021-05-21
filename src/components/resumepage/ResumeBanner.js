@@ -1,15 +1,20 @@
 import CircleIcon from "../lego/CircleIcon";
 import ResumeTextBox from "./ResumeTextBox";
+// import workData from "../../resources/data/workExp";
 import workData from "../../resources/data/workExp";
 import eduData from "../../resources/data/eduExp";
 
+const title0 = "Professional Info";
 const title1 = "Work Experience";
 const title2 = "Education";
 
 function ResumeBanner(props) {
   return (
-    <div>
+    <div style={bannerStyle}>
+      {/* <ResumeBannerItem title={title0} /> */}
+      <hr style={lineBreakerStyle} />
       <ResumeBannerItem title={title1} data={workData} />
+      <hr style={lineBreakerStyle} />
       <ResumeBannerItem title={title2} data={eduData} />
     </div>
   );
@@ -33,22 +38,41 @@ function ResumeBannerItem(props) {
         iconStyle={iconStyle}
         title={title}
       />
-      {textBoxs}
+      <div style={textBoxsStyle}>{textBoxs}</div>
     </div>
   );
 }
+
+const bannerStyle = {
+  marginRight: "40px",
+};
+
+const lineBreakerStyle = {
+  width: "100%",
+  marginTop: "30px",
+  marginBottom: "30px",
+};
+
+const textBoxsStyle = {
+  display: "flex",
+  flexDirection: "column",
+};
 
 const iconTextStyle = {
   height: "120px",
   width: "120px",
   borderRadius: "50%",
   border: "none",
-  marginRight: "20px",
+  marginRight: "30px",
   color: "white",
   fontSize: "17px",
   fontFamily: "Noticia Text",
   fontWeight: "bold",
   backgroundColor: "#ec3454",
 };
-const iconStyle = {};
+
+const iconStyle = {
+  marginBottom: "10px",
+};
+
 export default ResumeBanner;

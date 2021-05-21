@@ -1,7 +1,7 @@
 function ProjectTextBox(props) {
   const { title, content } = props;
   const boxStyle = {
-    width: "325px",
+    width: "326px",
   };
   const titleStyle = {
     textAlign: "initial",

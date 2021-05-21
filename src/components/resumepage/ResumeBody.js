@@ -21,6 +21,7 @@ const resumePageStyle = {
 const resumeContentStyle = {
   display: "flex",
 };
+
 const titleStyle = {
   fontSize: "80px",
   fontFamily: "Noticia Text",
