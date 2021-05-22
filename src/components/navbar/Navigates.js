@@ -3,17 +3,30 @@ import { Link } from "react-router-dom";
 import "../../styles/NavBar.css";
 
 function Navigates(props) {
-  const pages = props.pages;
-  const items = pages.map((page) => (
-    <Link
-      className="link"
-      key={page.key}
-      to={page.link}
-      style={{ textDecoration: "none" }}
-    >
-      {page.name}
-    </Link>
-  ));
+  const { pages, onSelectionChange } = props;
+
+  const items = pages.map(function (page) {
+    let linkStyle = {
+      textDecoration: "none",
+      margin: "10px",
+    };
+    if (props.selected === page.hash) {
+      linkStyle["color"] = "#66ccff";
+    } else {
+      linkStyle["color"] = "#4d4d4d";
+    }
+    return (
+      <Link
+        className="link"
+        key={page.key}
+        to={page.link}
+        style={linkStyle}
+        onClick={onSelectionChange}
+      >
+        {page.name}
+      </Link>
+    );
+  });
   return <div className="component-navbar-navigates">{items}</div>;
 }
 

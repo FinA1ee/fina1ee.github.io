@@ -4,7 +4,6 @@ import ResumeTextBox from "./ResumeTextBox";
 import workData from "../../resources/data/workExp";
 import eduData from "../../resources/data/eduExp";
 
-const title0 = "Professional Info";
 const title1 = "Work Experience";
 const title2 = "Education";
 

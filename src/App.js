@@ -1,6 +1,5 @@
 import "./App.css";
-// import ContactInfoBar from "./components/ContactInfoBar";
-import MainBody from "./components/mainbody/MainBody";
+import MainBody from "./components/MainBody";
 import NavBar from "./components/navbar/NavBar";
 import FooterBar from "./components/footerbar/FooterBar";
 
@@ -13,10 +12,10 @@ import {
 
 function App() {
   const subPages = [
-    { key: 0, name: "HOMES", link: "/homepage" },
-    { key: 1, name: "RESUME", link: "/resume" },
-    { key: 2, name: "PROJECTS", link: "/projects" },
-    { key: 3, name: "CONTACT", link: "/contact" },
+    { key: 0, name: "HOME", link: "/homepage", hash: "#/main/homepage" },
+    { key: 1, name: "RESUME", link: "/resume", hash: "#/main/resume" },
+    { key: 2, name: "PROJECTS", link: "/projects", hash: "#/main/projects" },
+    { key: 3, name: "CONTACT", link: "/contact", hash: "#/main/contact" },
   ];
 
   return (

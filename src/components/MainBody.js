@@ -1,8 +1,8 @@
-import ContactBody from "./ContactBody";
-import HomePageBody from "../homepage/HomePageBody";
-import ProjectBody from "../projectpage/ProjectBody";
-import ResumeBody from "../resumepage/ResumeBody";
-import "../../styles/MainBody.css";
+import ContactBody from "./contactpage/ContactBody";
+import HomePageBody from "./homepage/HomePageBody";
+import ProjectBody from "./projectpage/ProjectBody";
+import ResumeBody from "./resumepage/ResumeBody";
+import "../styles/MainBody.css";
 
 const MainBody = (props) => {
   let mainBody = <p> Fatal Error </p>;

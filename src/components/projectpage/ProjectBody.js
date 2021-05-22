@@ -24,7 +24,7 @@ function ProjectBody(props) {
   };
 
   const ProjectBanners = projectData.map((item) => (
-    <div>
+    <div key={item.id}>
       <ProjectBanner
         id={item.id}
         title={item.title}
@@ -38,11 +38,8 @@ function ProjectBody(props) {
 
   return (
     <div style={projectPageStyle}>
-      <p style={titleStyle}>
-        {" "}
-        LATEST PROJECTS <hr style={lineBreakerStyle}></hr>
-      </p>
-
+      <p style={titleStyle}> LATEST PROJECTS</p>
+      <hr style={lineBreakerStyle}></hr>
       {ProjectBanners}
     </div>
   );

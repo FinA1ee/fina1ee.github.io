@@ -21,7 +21,11 @@ const skillBannerStyle = {
 };
 
 function SkillBannerItem(props) {
-  const listItem = props.content.map((item) => <p>{item}</p>);
+  var indexKey = -1;
+  const listItem = props.content.map(function (item) {
+    indexKey += 1;
+    return <p key={indexKey}>{item}</p>;
+  });
   return (
     <div style={skillItemStyle}>
       <CircleIcon

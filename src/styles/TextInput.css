@@ -1,0 +1,40 @@
+.title {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: initial;
+  margin-bottom: 5px;
+}
+::placeholder {
+  color: black;
+  opacity: 0.5;
+}
+/* input:focus {
+  border-width: var(--brwf, 1px);
+  background-color: rgba(var(--bgf, 255, 255, 255), var(--alpha-bgf, 1));
+  border-style: solid;
+  border-color: rgba(var(--brdf, 163, 217, 246), var(--alpha-brdf, 1));
+} */
+input,
+textarea {
+  width: 440px;
+  /* background-color: #ec3454; */
+  border: none;
+  font-size: 15px;
+  font-family: "Open Sans";
+  padding: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+input:hover {
+  --color_18: 232, 53, 8;
+  --color_15: 0, 0, 0;
+  --alpha-brdh: 1;
+  --alpha-bgh: 1;
+  --brdh: var(--color_15);
+  --bgh: var(--color_18);
+  --brwh: 1px;
+  border-width: var(--brwh, 1px);
+  border-style: solid;
+  border-color: rgba(var(--brdh, 163, 217, 246), var(--alpha-brdh, 1));
+}

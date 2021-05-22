@@ -3,9 +3,9 @@ import CircleIcon from "../lego/CircleIcon";
 
 function ButtonPanel(props) {
   const buttonList = [
-    { key: 0, title: "MY RESUME", redirect: "/resume", bgColor: "#ec3454" },
-    { key: 1, title: "MY WORK", redirect: "/resume", bgColor: "#64ccd4" },
-    { key: 2, title: "MY SKILLS", redirect: "/projects", bgColor: "#d2c925" },
+    { key: 0, title: "Coder", redirect: "/resume", bgColor: "#ec3454" },
+    { key: 1, title: "Gamer", redirect: "/resume", bgColor: "#64ccd4" },
+    { key: 2, title: "Travller", redirect: "/projects", bgColor: "#d2c925" },
   ];
 
   const buttonStyle = {
