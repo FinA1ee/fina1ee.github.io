@@ -4,7 +4,7 @@ import NavBar from "./components/navbar/NavBar";
 import FooterBar from "./components/footerbar/FooterBar";
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Switch,
   Redirect,
@@ -12,20 +12,20 @@ import {
 
 function App() {
   const subPages = [
-    { key: 0, name: "HOME", link: "/homepage", hash: "#/main/homepage" },
-    { key: 1, name: "RESUME", link: "/resume", hash: "#/main/resume" },
-    { key: 2, name: "PROJECTS", link: "/projects", hash: "#/main/projects" },
-    { key: 3, name: "CONTACT", link: "/contact", hash: "#/main/contact" },
+    { key: 0, name: "HOME", link: "/homepage" },
+    { key: 1, name: "RESUME", link: "/resume" },
+    { key: 2, name: "PROJECTS", link: "/projects" },
+    { key: 3, name: "CONTACT", link: "/contact" },
   ];
 
   return (
     <div className="App">
-      <Router basename="/main">
+      <Router basename="/portfolio">
         <Route render={() => <NavBar navItems={subPages} />}></Route>
         <Switch>
           <Route
             exact
-            path="/"
+            path="/personal-page"
             render={() => <Redirect to="/homepage"></Redirect>}
           ></Route>
 

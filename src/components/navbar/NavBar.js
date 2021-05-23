@@ -6,10 +6,10 @@ import "../../styles/NavBar.css";
 
 function NavBar(props) {
   const { navItems } = props;
-  const [selected, setSelected] = useState("/homepage");
+  const [selected, setSelected] = useState("");
 
   function onSelectionChange(e) {
-    setSelected(e.target.hash);
+    setSelected(e.target.innerText);
   }
 
   return (

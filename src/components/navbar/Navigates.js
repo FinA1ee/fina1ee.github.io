@@ -10,7 +10,7 @@ function Navigates(props) {
       textDecoration: "none",
       margin: "10px",
     };
-    if (props.selected === page.hash) {
+    if (props.selected === page.name) {
       linkStyle["color"] = "#66ccff";
     } else {
       linkStyle["color"] = "#4d4d4d";
