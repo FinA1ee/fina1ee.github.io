@@ -4,7 +4,7 @@ import NavBar from "./components/navbar/NavBar";
 import FooterBar from "./components/footerbar/FooterBar";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   Redirect,
@@ -20,12 +20,12 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename="/portfolio">
+      <Router>
         <Route render={() => <NavBar navItems={subPages} />}></Route>
         <Switch>
           <Route
             exact
-            path="/personal-page"
+            path="/"
             render={() => <Redirect to="/homepage"></Redirect>}
           ></Route>
 

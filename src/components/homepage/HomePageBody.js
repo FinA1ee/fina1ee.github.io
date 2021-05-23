@@ -4,10 +4,9 @@ import ButtonPanel from "./ButtonPanel";
 
 function HomePageBody(props) {
   const description =
-    "I am a Full Stack Developer recently graduated from the University of Waterloo in Canada." +
-    "I am a Full Stack Developer recently graduated from the University of Waterloo in Canada." +
-    "I am a Full Stack Developer recently graduated from the University of Waterloo in Canada." +
-    "I am a Full Stack Developer recently graduated from the University of Waterloo in Canada.";
+    "My name is Yuchen Zhu, you can call me Jack if you'd like. " +
+    "I am a Full Stack Developer recently graduated from the University of Waterloo in Canada," +
+    "and I will be working in KuaiShou Technology in Beijing starting July. I love programming, playing games and travlling.";
 
   const homePageStyle = {
     display: "flex",
