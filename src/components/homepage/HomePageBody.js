@@ -4,9 +4,9 @@ import ButtonPanel from "./ButtonPanel";
 
 function HomePageBody(props) {
   const description =
-    "My name is Yuchen Zhu, you can call me Jack if you'd like. " +
-    "I am a Full Stack Developer recently graduated from the University of Waterloo in Canada," +
-    "and I will be working in KuaiShou Technology in Beijing starting July. I love programming, playing games and travlling.";
+    "My name is Yuchen Zhu, you can call me Jack if you'd like. \n\n" + 
+    "I am a Full Stack Developer recently graduated from the University of Waterloo in Canada.\n\n" +
+    "I’m currently seeking opportunity of Shanghai based Front-End or SDE position with 1-2 years experience."
 
   const homePageStyle = {
     display: "flex",
@@ -58,8 +58,8 @@ function HomePageBody(props) {
       <div style={contentStyle}>
         <p style={titleStyle}> Hello, </p>
         <p style={subtitleStyle}> a bit about me: </p>
-        <ButtonPanel />
         <p style={descriptionStyle}> {description} </p>
+        <ButtonPanel />
       </div>
     </div>
   );

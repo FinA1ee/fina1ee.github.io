@@ -58,7 +58,7 @@ function ButtonPanel(props) {
       modal
       nested
     >
-      {(close) => (
+      {/* {(close) => (
         <div className="modal">
           <button className="close" onClick={close}>
             &times;
@@ -87,7 +87,7 @@ function ButtonPanel(props) {
             </button>
           </div>
         </div>
-      )}
+      )} */}
     </Popup>
   ));
 

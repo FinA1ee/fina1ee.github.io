@@ -5,8 +5,8 @@ import LangIcon from "../../resources/imgs/svg/language.svg";
 function SkillBanner(props) {
   const title1 = "Skills";
   const title2 = "Languages";
-  const content1 = ["Javascript ES6", "HTML/CSS", "Node", "Python", "React"];
-  const content2 = ["Manderian", "English", "Japanese"];
+  const content1 = ["Javascript ES6", "HTML/CSS", "NodeJS", "C++", "React", "Webpack"];
+  const content2 = ["Manderian", "English"];
 
   return (
     <div style={skillBannerStyle}>

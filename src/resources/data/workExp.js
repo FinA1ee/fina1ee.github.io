@@ -1,7 +1,18 @@
 const workData = [
   {
     id: 0,
-    title: "全栈工程师 - Wish Corporation",
+    title: "全职前端开发工程师 - 快手科技",
+    time: "2021.6 - 2022.8",
+    content: 
+      "负责公司 toB 协同办公套件（在线文档、在线表格等）的日常前端开发及维护 \n" + 
+      "1. 主要负责编写、优化协同文档的文件预览需求 \n" +
+      "2. 主导 PDF 文件预览功能开发，通过本地化 PDF.JS 库优化首屏加载时间 \n" + 
+      "3. 使用 React +Typescript 技术栈迭代云盘页面，参与团队内部业务组件库治理、动态插画升级等 \n" +
+      "4. 参与使用 taro 框架进行h5页面跨端开发 （微信小程序 + 快手小程序）\n"
+  },
+  {
+    id: 1,
+    title: "实习全栈工程师 - Wish Corporation",
     time: "2020.1 - 2020.5",
     content:
       "主要项目：商户注册管理系统 \n\n " +
@@ -15,7 +26,7 @@ const workData = [
       "- 使用MongoDB和Python脚本对商户行为进行监管 \n",
   },
   {
-    id: 1,
+    id: 2,
     title: "Desire 2 Learn - 软件开发实习生",
     time: "2019.4 - 2019.8",
     content:
@@ -25,7 +36,7 @@ const workData = [
       "- 通过Cloud Watch等工具对网站的Lambda计算服务进行监管和测试\n",
   },
   {
-    id: 2,
+    id: 3,
     title: "Altairix Software - Java开发实习生",
     time: "2018.9 - 2018.12",
     content:

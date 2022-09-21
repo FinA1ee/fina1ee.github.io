@@ -1,6 +1,5 @@
 import CircleIcon from "../lego/CircleIcon";
 import ResumeTextBox from "./ResumeTextBox";
-// import workData from "../../resources/data/workExp";
 import workData from "../../resources/data/workExp";
 import eduData from "../../resources/data/eduExp";
 

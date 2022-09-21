@@ -4,7 +4,7 @@ import NavBar from "./components/navbar/NavBar";
 import FooterBar from "./components/footerbar/FooterBar";
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Switch,
   Redirect,
@@ -15,7 +15,7 @@ function App() {
     { key: 0, name: "HOME", link: "/homepage" },
     { key: 1, name: "RESUME", link: "/resume" },
     { key: 2, name: "PROJECTS", link: "/projects" },
-    { key: 3, name: "CONTACT", link: "/contact" },
+    // { key: 3, name: "CONTACT", link: "/contact" },
   ];
 
   return (
@@ -26,7 +26,7 @@ function App() {
           <Route
             exact
             path="/"
-            render={() => <Redirect to="/homepage"></Redirect>}
+            render={() => <Redirect to="homepage"></Redirect>}
           ></Route>
 
           <Route
@@ -39,10 +39,10 @@ function App() {
             render={() => <MainBody displayContent="project" />}
           ></Route>
 
-          <Route
+          {/* <Route
             path="/contact"
             render={() => <MainBody displayContent="contact" />}
-          ></Route>
+          ></Route> */}
 
           <Route render={() => <MainBody displayContent="homepage" />}></Route>
         </Switch>

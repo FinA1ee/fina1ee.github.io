@@ -6,7 +6,7 @@ function Avatar(props) {
 
   return (
     <div style={avatarStyle}>
-      <Link to="/homepage">
+      <Link to="homepage">
         <img alt="avatar" src={avatarSrc} style={imgStyle}></img>
       </Link>
     </div>
